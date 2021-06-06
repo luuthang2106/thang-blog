@@ -1,9 +1,9 @@
 module.exports = {
-  apps : [
- {
-   "name": "thang-blog",
-"script": "yarn start -p 4000",
-"args": "start"
-  }],
+  apps: [
+    {
+      "name": "thang-blog",
+      "script": "yarn",
+      "args": "start"
+    }],
 
 };
