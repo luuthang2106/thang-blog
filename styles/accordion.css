@@ -1,0 +1,38 @@
+.accordion .accordion-tab, .navbar-item{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.accordion .accordion-tab:after {
+    content: "\002B";
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.accordion .accordion-tab.active:after {
+    content: "\2212";
+}
+.accordion .active {
+    /* background-color: #ccc; */
+}
+.accordion .accordion-panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.accordion .accordion-panel .accordion-item {
+    cursor: pointer;
+    padding: 18px 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+ 

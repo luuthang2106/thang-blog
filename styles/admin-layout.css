@@ -1,0 +1,15 @@
+.vertical-menu {
+    background-color: #eee;
+
+}
+.vertical-menu div {
+    color: black;
+    padding: 12px;
+    cursor: pointer;
+}
+.vertical-menu div:hover {
+    background-color: #ccc;
+}
+table th, td {
+    text-align: left;
+}

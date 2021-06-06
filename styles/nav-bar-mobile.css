@@ -1,0 +1,50 @@
+.user-navbar-mobile {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.user-navbar-mobile .trigger-button {
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+.side-navbar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.25s;
+}
+.side-navbar .close-navbar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #000;
+    cursor: pointer;
+    font-size: 36px;
+}
+.side-navbar .navbar-items {
+    padding: 50px 20px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

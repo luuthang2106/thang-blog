@@ -1,0 +1,30 @@
+.paginator {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.paginator div {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+}
+.paginator div:first-child {
+    margin: 0 7px 0 0;
+}
+.paginator div:last-child {
+    margin: 0 0 0 7px;
+}
+.paginator div.active {
+    border-color: #0070f3;
+    color: #0070f3;
+}

@@ -1,0 +1,118 @@
+
+.user-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.user-layout .navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D3D3D3;
+}
+.w-992 {
+    width: 992px;
+}
+.user-layout .body {
+ display: flex;
+ padding: 1rem;
+ height: calc(100vh - 100px);
+}
+
+.user-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-navbar .left, .right {
+    display: block;
+}
+.user-navbar .left {
+    display: flex;
+    width: 50%;
+}
+.user-navbar .right {
+    display: flex;
+}
+
+.user-nav-item {
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+    color: #696969;
+    text-shadow: 0px 0px 1px #696969;
+}
+.user-nav-item:hover {
+    color: #000;
+    text-shadow: 0px 0px 1px #000;
+}
+.user-nav-item.active {
+    color: #0070f3;
+    text-shadow: 0px 0px 1px #0070f3;
+
+}
+.body-right, .body-left {
+    padding: 5px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .user-navbar {
+        flex-direction: column;
+    }
+    .user-navbar .right, .left {
+        margin-top: 10px;
+    }
+    .w-992 {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .w-992 {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .user-navbar {
+        flex-direction: column;
+    }
+    .user-navbar .right, .left {
+        margin-top: 10px;
+    }
+    .w-992 {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .user-navbar {
+        flex-direction: row;
+    }
+    .user-navbar .right, .left {
+        margin-top: 0px;
+    }
+    .w-992 {
+        width: 992px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .user-navbar {
+        flex-direction: row;
+    }
+    .w-992 {
+        width: 992px;
+    }
+}

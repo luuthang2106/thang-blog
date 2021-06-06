@@ -1,0 +1,73 @@
+.post-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.post-card .image {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-card .image .container{
+    width: 100%;
+    position: relative;
+    padding-top: 56.25%;
+}
+.post-card .image .container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.post-card .body-card {
+    padding: 0 10px;
+    width: 65%;
+}
+.post-card .post-card-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-card .post-card-tag span:first-child{
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.post-card .post-card-title {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.post-card .post-card-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.post-card .post-card-actions a:first-of-type {
+    margin-right: 0.5rem;
+}
+
+.accordion-post-item {
+    width: 100%;
+    border: 1px solid lightslategrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.accordion-post-item .header {
+    font-size: .7rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+}

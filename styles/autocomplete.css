@@ -1,0 +1,13 @@
+.autocomplete {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+.input-search {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    height: 40px;
+    padding: 0 10px;
+}
